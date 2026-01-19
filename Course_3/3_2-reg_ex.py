@@ -1,7 +1,7 @@
 import re
 
-sample = "regex_sum_42.txt"
-actual = "regex_sum_2358394.txt"
+sample = "assets/regex_sum_42.txt"
+actual = "assets/regex_sum_2358394.txt"
 
 try:
     fh = open(actual, 'r')
@@ -20,4 +20,4 @@ for line in fh:
 print(sum(nums))
 
 # Just for fun
-print( sum( [ int(num) for num in re.findall('[0-9]+', open("regex_sum_2358394.txt").read()) ] ) )
+print( sum( [ int(num) for num in re.findall('[0-9]+', open("assets/regex_sum_2358394.txt").read()) ] ) )

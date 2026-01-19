@@ -1,6 +1,6 @@
 fname = input("Enter file name: ")
 if len(fname) < 1:
-    fname = "mbox-short.txt"
+    fname = "assets/mbox-short.txt"
 
 fh = open(fname)
 count = 0
